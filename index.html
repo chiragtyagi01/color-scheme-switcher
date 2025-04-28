@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Scheme Switcher</title>
+</head>
+<body class="bg-[#212121] text-white flex flex-col justify-center items-center select-none transition-colors duration-600">
+
+  <div class="wrapper flex flex-col justify-center items-center ">
+
+    <div class="title text-5xl font-bold mt-10 uppercase text-center transition-colors duration-600">Color Scheme Switcher</div>
+
+    <div class="color-selector flex justify-center items-center gap-4 flex-wrap mt-12 uppercase max-w-3xl text-center">
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300   border-black bg-[#FD7857] relative" id="FD7857">Orange
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0 "></i>
+      </div>
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black  bg-[#43A5BE]" id="43A5BE">Teal
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#53BDA5]" id="53BDA5">Sea Green
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#F5C26B]" id="F5C26B">Tan
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#253342]" id="253342">Off Black
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#C8D6E2] text-black" id="C8D6E2">Light Grey
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#4FB06D]" id="4FB06D">Kelly Green
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#1F3A93]" id="1F3A93">Navy
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#EBB8DD]" id="EBB8DD">Rose pink
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#6C62D6]" id="6C62D6">Indigo
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#FFFFFF] text-black" id="FFFFFF">White
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#BE398D]" id="BE398D">Magenta
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#D49137]" id="D49137">Gold
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#CAE7E3] text-black" id="CAE7E3">Azure
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#BF2C34]" id="BF2C34">Dark Red
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300   border-black bg-[#FFFFF0] text-black" id="FFFFF0">ivory
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black  bg-[#FAF0E6] text-black" id="FAF0E6">LINEN
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#2A3439]" id="2A3439">GUNMETAL
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#1A2421]" id="1A2421">JUNGLE GREEN
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#3C1414]" id="3C1414">DARK SIENNA
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#003366]" id="003366">MIDNIGHT BLUE
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#0A0A0A]" id="0A0A0A">JET BLACK
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#F5F5DC] text-black" id="F5F5DC">BEIGE
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#DCDCDC] text-black" id="DCDCDC">GAINSBORO
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#353839]" id="353839">ONYX
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#002147] text-white" id="002147">OXFORD BLUE
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#301934]" id="301934">DARK PURPLE
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#FFEFD5] text-black" id="FFEFD5">PAPAYA
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#800000]" id="800000">MAROON
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#AFEEEE] text-black" id="AFEEEE">PALE TURQUOISE
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#F5DEB3] text-black" id="F5DEB3">WHEAT
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i></div>
+      <div class="color rounded-lg  w-40 h-24 flex justify-center items-center  border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#FFFAFA] text-black" id="FFFAFA">SNOW
+        <i class="copy-btn fas fa-copy text-xl absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#8A2BE2]" id="8A2BE2">Blue Violet
+        <i class="copy-btn fas fa-copy absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#FF6347]" id="FF6347">Tomato
+        <i class="copy-btn fas fa-copy absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#FFCC00]" id="FFCC00">Medium Sea Green
+        <i class="copy-btn fas fa-copy absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      
+      <div class="color rounded-lg w-40 h-24 flex justify-center items-center border text-lg hover:brightness-110 hover:scale-105 hover:transition-transform duration-300 border-black bg-[#8B5E3C]" id="8B5E3C">WOOD
+        <i class="copy-btn fas fa-copy absolute top-2 right-2 cursor-pointer opacity-0"></i>
+      </div>
+      
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
